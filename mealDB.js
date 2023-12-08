@@ -17,8 +17,8 @@ function display(data){
         var newDiv= document.createElement("div");
         newDiv.innerHTML= `<br>Meal ID: ${allMeals[i].idMeal} <br>
                            Meal Name: ${allMeals[i].strMeal} <br>  
-                           <img src="${allMeals[i].strMealThumb}">
-                           Instructions to prepare meal: <p><spam class="instruction"> ${allMeals[i].strInstructions}</spam></p> 
+                           <img src="${allMeals[i].strMealThumb}"> <br>
+                           <p>Instructions to prepare meal: <p><spam class="instruction"> ${allMeals[i].strInstructions}</spam></p> 
                            <a href= "${allMeals[i].strYoutube}"> Watch Video: </a> <br> 
     `
         newDiv.classList.add("styling");

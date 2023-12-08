@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+button{
+    border-radius: 1px;
+    background-color: white;
+    border: none;
+    color: rgb(218, 167, 167);
+    box-shadow: 8px 8px 8px;
+    background-color: rgb(92, 53, 53);
+}
+button:hover{
+    background-color: rgb(72, 36, 36);
+    color: white;
+}
+.styling{
+    font-family:cursive;
+    font-size: 15px ;
+    /* text-shadow: 5px 2px 5px; */
+}
+a{
+    text-decoration: none;
+    color: rgb(218, 167, 167);
+}
+a:hover{
+    color: black;
+}
+input{
+    border-radius: 1px;
+    box-shadow: 8px 8px 8px;
+    border: none;
+    background-color: rgb(92, 53, 53);
+}
+input:hover{
+    background-color: rgb(72, 36, 36);
+    color: white; 
+}
+.instruction{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    background-color: rgb(92, 53, 53);
+}

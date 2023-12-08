@@ -29,6 +29,7 @@ input{
     border-radius: 1px;
     box-shadow: 8px 8px 8px;
     border: none;
+    color: rgb(218, 167, 167);
     background-color: rgb(92, 53, 53);
 }
 input:hover{
